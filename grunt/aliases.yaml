@@ -1,0 +1,21 @@
+debug:
+ # - 'clean'
+  - 'concurrent:sprite'
+  - 'concurrent:imagemin'
+  - 'concurrent:sass:debug'
+  - 'concurrent:copy:debug'
+
+release:
+  - 'concurrent:sprite'
+  - 'concurrent:imagemin'
+  - 'concurrent:sass:release'
+  - 'concurrent:concat'
+  - 'concurrent:uglify'
+  - 'concurrent:copy:release'
+
+default:
+  - 'debug'
+
+dev:
+  - 'debug'
+  - 'watch'

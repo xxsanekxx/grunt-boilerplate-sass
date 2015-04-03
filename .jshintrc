@@ -1,0 +1,19 @@
+{
+
+    "maxerr"        : 50,
+
+    "bitwise"       : true,
+    "camelcase"     : true,
+    "immed"         : true,
+    "newcap"        : true,
+    "plusplus"      : true,
+    "maxparams"     : 4,
+
+    "browser"       : true,
+    "devel"         : true,
+    "jquery"        : true,
+    "mocha"         : true,
+    "node"          : true,
+
+    "globals"       : {}
+}
