@@ -1,0 +1,30 @@
+{
+  "name": "grunt-boilerplate-sass",
+  "version": "0.0.1",
+  "homepage": "https://github.com/xxsanekxx/grunt-boilerplate-sass",
+  "authors": [
+    "trigada <korobchinskiy.alex@gmail.com>"
+  ],
+  "description": "grunt boilerplate for front-end, sass, js",
+  "main": "build/index.html",
+  "keywords": [
+    "grunt-boilerplate-sass",
+    "grunt",
+    "boilerplate",
+    "boilerplate",
+    "sass"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "modernizr": "~2.8.3",
+    "normalize.css": "~3.0.3"
+  }
+}
